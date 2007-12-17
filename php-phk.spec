@@ -17,7 +17,6 @@ Suggests:	php-apc
 Suggests:	php-eaccelerator
 Suggests:	php-memcache
 Suggests:	php-xcache
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
 %description
 Transparently makes PHK runtime code faster.
