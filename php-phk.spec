@@ -6,7 +6,7 @@
 Summary:	PHK Accelerator extension
 Name:		php-%{modname}
 Version:	1.1.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Development/PHP
 License:	PHP License
 URL:		http://phk.tekwire.net/
@@ -17,7 +17,7 @@ Suggests:	php-apc
 Suggests:	php-eaccelerator
 Suggests:	php-memcache
 Suggests:	php-xcache
-BuildRoot:	%{_tmppath}/%{name}-%{version}-root
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 Transparently makes PHK runtime code faster.
