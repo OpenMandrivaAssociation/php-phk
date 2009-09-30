@@ -5,13 +5,12 @@
 
 Summary:	PHK Accelerator extension
 Name:		php-%{modname}
-Version:	1.1.0
-Release:	%mkrel 12
+Version:	1.4.0
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
 URL:		http://phk.tekwire.net/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
-Patch0:		phk-buildfix.diff
 BuildRequires:  php-devel >= 3:5.2.0
 Suggests:	php-apc
 Suggests:	php-eaccelerator
@@ -26,8 +25,6 @@ Transparently makes PHK runtime code faster.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
-
-%patch0 -p0
 
 %build
 %serverbuild
