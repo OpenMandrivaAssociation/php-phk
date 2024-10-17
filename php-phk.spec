@@ -9,7 +9,7 @@ Version:	1.4.0
 Release:	%mkrel 3
 Group:		Development/PHP
 License:	PHP License
-URL:		http://phk.tekwire.net/
+URL:		https://phk.tekwire.net/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 BuildRequires:  php-devel >= 3:5.2.0
 Suggests:	php-apc
