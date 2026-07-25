@@ -6,7 +6,7 @@
 Summary:	PHK Accelerator extension
 Name:		php-%{modname}
 Version:	1.4.0
-Release:	%mkrel 3
+Release:	4
 Group:		Development/PHP
 License:	PHP License
 URL:		https://phk.tekwire.net/
